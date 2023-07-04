@@ -1,25 +1,14 @@
-import logo from './logo.svg';
+// App.js
+import Joke from "./Joke";
 import './App.css';
-
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			
+			<h3>Joke Generator Using React and Joke API</h3>
+			<Joke/>
+		</div>
+	);
 }
 
 export default App;
